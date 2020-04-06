@@ -19,19 +19,23 @@ nav ul {
     border-left: 1px solid;
 }
 
+/* make text stand out*/
 .navbar-heading {
     color:white !important;
 }
 
+/* make text stand out*/
 .nav-link {
     color: white !important;
 }
 
+/*get rid of white space and stop rounded edges*/
 .jumbotron {
     margin-bottom: unset !important;
     border-radius: unset !important;
 }
 
+/*set background images and style*/
 .main {
     background-image: url(./Assets/PerthBoathouse.jpg);
     background-size: cover;
@@ -41,6 +45,7 @@ nav ul {
     height: 100vh;    
 }
 
+/*style main headers*/
 h1 {
     color:#7e6643 !important;
     opacity: 100%;
@@ -48,6 +53,7 @@ h1 {
     text-shadow: 2px 2px 4px #000000 !important;
 }
 
+/*style sub headers*/
 h2 {
     color:#957242 !important;
     font: outline;
@@ -58,6 +64,7 @@ h2 {
     text-shadow: 2px 2px 4px #000000 !important;
 }
 
+/*get rid of white space and stop rounded edges*/
 .content-header {
     background-color: #825062 !important;
     width: 100%;
@@ -67,14 +74,7 @@ h2 {
     margin-bottom: unset !important;
 }
 
-h3 {
-    color: white;
-    font-size: 3vw !important;
-    height: 15vw;
-    text-align: center !important;
-    padding: 2vw !important;
-}
-
+/*colour contact background*/
 .contact {
     background-color: #435b7e !important;
     position: relative;
@@ -82,43 +82,32 @@ h3 {
     
 }
 
+/*improve aesthetics*/
 section {
     margin-top: unset !important;
 }
 
+/*style portfolio background*/
 .portfolio {
     background-color: #e9d1c9 !important;
     color: white !important;
     margin-top: unset !important;
     height: max-content !important;
-    
 }
 
-.portfolio-header {
-    background-color: #7e6643 !important;
-    width: 100%;
-    height: auto;
-    margin: 20px !important;
-}
-
+/*colour contact container*/
 .contact-container {
     background-color: #e9d1c9;
     min-height: 40vw !important;
 }
 
+/*colour portfolio container*/
 .portfolio-container {
     background-color: #435b7e;
     min-height: 40vw !important;
     padding-left: 50px !important;
     padding-right: 50px !important;
 }
-
- 
- .card-header-title {
-     font-size: 2vw !important;
- }
-
- 
 
 /*add text to portfolio links and have it respond to container size*/
 h4.link-text {    
@@ -132,6 +121,7 @@ h4.link-text {
     bottom: 50px;     
 }
 
+/*set line to be same style as header*/
 hr {
     background-color: #7e6643 !important;
 }
@@ -165,8 +155,7 @@ hr {
     position: static;
     bottom: 0;
     width: 100%; 
-    background-color: #adc5eb;
-      
+    background-color: #adc5eb;      
 }
 
 /*Add top border to footer*/
@@ -183,16 +172,6 @@ hr {
 /*Use margins to create better spacing*/
 .row {
     margin-top: 30px;
-}
-
-.socialMedia {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    margin:0;
-    padding:0;
-    display:flex;
 }
 
 /*Changes to formatting when screen size changes*/
