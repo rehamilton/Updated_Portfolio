@@ -209,7 +209,7 @@ nav ul {
     margin: auto;
 }
 
-#bio {
+p, i, span {
     font-size: smaller !important;
 }
 
