@@ -8,70 +8,173 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Chilanka|Kalam|Pacifico&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
-            <img src="/Assets/icon.png" width="50" height="28">
-            <span class="has-text-weight-bold">Roz</span>
-          </a>
-      
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="navbar-menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item">
-                        Home
-                        </a>
-                
-                        <a class="navbar-item">
-                        Documentation
-                        </a>
-                
-                        <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            More
-                        </a>
-                
-                
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-light flex-column flex-sm-row text-light border-bottom">
+         
+        <!--Navigation header witgh name linking back to index page-->
+        <div class="header-container">
+            
+         </div>         
+        
+        <!--Navigation items with vertical lines seperating-->
+        <ul class="navbar-nav flex-row">                
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="divider"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="divider"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/roselyn-hamilton-acca-mipa-b8249287/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="divider"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/rehamilton" target="_blank">Github</a>
+            </li>
+            <li class="divider"></li>
+        </ul>        
+        
     </nav>
 
-    <section class="hero is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title is-spaced">
-                    ROSELYN HAMILTON
-                </h1>
-                <h2 class="subtitle is-3 ">
-                    FULL-STACK CODING STUDENT
-                </h2>
-            </div>
-        </div>
+    <div class="jumbotron main">
+        <h1 class="text-center">ROSELYN HAMILTON</h1>
+        <h2 class="text-center">
+            FULL-STACK CODING STUDENT
+        </h2>
+    </div>
+    
+    <!--Portfolio area-->
+    <section class="jumbotron portfolio" id="portfolio">
+        
+            <div class="container portfolio-container">
+
+                <div class="container">
+                    <div class="row">
+                        <!--Main content container note: 3 pictures should disappear when screen is smaller md value-->
+                        <div class="col-md-12 col-sm-12" id="content-container">  
+                            
+                                              
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <h1 class="text-center">PORTFOLIO</h1>
+                                    <hr>
+                                </div>
+                            </div>
+                
+                            <!--First row of 2 images used as links with text in lie with theme-->
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12" id="word-guess">    
+                                    <a href="https://rehamilton.github.io/One-Fine-Day/" target="_blank">
+                                        <div class="portfolio-link">
+                                            <img 
+                                                src="/Assets/One_Fine_Day.PNG"
+                                                alt= "One Fine Day"
+                                                class="img-fluid portfolio-img"                            
+                                            >
+                                            <h4 class="link-text">One Fine Day</h4>
+                                        </div> 
+                                    </a>                      
+                                                                   
+                                </div>
+        
+                                <div class="col-md-6 col-sm-12" id = "rpg">    
+                                    <a href="https://rehamilton.github.io/Weather_Dashboard/" target="_blank">
+                                        <div class="portfolio-link">
+                                            <img 
+                                                src="/Assets/Weather_Dashboard.PNG"
+                                                alt= "Weather Dashboard"
+                                                class="img-fluid portfolio-img"                                
+                                            >
+                                            <h4 class="link-text">Weather Dashboard</h4>
+                                        </div> 
+                                    </a>        
+                                </div>
+                            </div>
+        
+                            <!--Second row of 2 images used as links with text in lie with theme-->
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12" id= "trivia">    
+                                    <a href="https://rehamilton.github.io/Code_Quiz/index.html" target="_blank">
+                                        <div class="portfolio-link">
+                                            <img 
+                                                src="/Assets/Code_Quiz.PNG"
+                                                alt= "Code Quiz"
+                                                class="img-fluid portfolio-img"                                
+                                            >
+                                            <h4 class="link-text">Code Quiz</h4>
+                                        </div>
+                                    </a>                   
+                                </div>
+        
+                                <div class="col-md-6 col-sm-12" id="info-widget">    
+                                    <a href="https://rehamilton.github.io/Password_Generator/" target="_blank">
+                                        <div class="portfolio-link">
+                                            <img 
+                                                src="/Assets/password.PNG"
+                                                alt= "Info Widget"
+                                                class="img-fluid portfolio-img"                                
+                                            >
+                                            <h4 class="link-text">Password Generator</h4>
+                                        </div>  
+                                    </a> 
+                                </div>
+                            </div>
+                            
+                        </div>
+            
+                    </div>
+                </div>          
+            </div>    
+        
     </section>
 
-    
-    <section class="section">
-        <div class="columns">
-   
-          
+    <section class="jumbotron contact" id="contact">
+     
+        <div class="container contact-container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1 class="text-center">ABOUT ME</h1>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-sm-1">
+                    
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    
+                </div>
+                <div class="col-md-2 col-sm-1">
+                    
+                </div>
+            </div>
+  
+        </div>    
+ 
+    </section>  
+
+    <!--Sticky footer-->     
+    <footer class="footer">
+        
+        
+        <div class="footer-border bg-info">
         </div>
-    </section>
+
+        <div class="container">
+                            
+            <span>&copy; Copyright</span>
+            
+        </div>
+    </footer>
 
 </body>
 

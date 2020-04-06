@@ -1,17 +1,47 @@
-.hero {
+/*Remove margins from navbar*/
+.navbar {
+    margin:0 !important;
+    padding:0 !important;
+    background-color:#adc5eb !important; 
+}
+
+/*move navigation links over for aesthetic reasons*/
+nav ul {
+    position: relative;
+    right: 40px;
+}
+
+/*Add vertical divider lines between navigation links*/
+.divider {
+    height: 100%;
+    margin: 0 9px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+.navbar-heading {
+    color:white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.jumbotron {
+    margin-bottom: unset !important;
+}
+
+.main {
     background-image: url(./Assets/PerthBoathouse.jpg);
     background-size: cover;
     padding-bottom: 3rem;
     background-position: center;
     opacity: 75%;
-    
+    height: 100vh;    
 }
 
 h1 {
     color:#7e6643 !important;
-    font: outline;
-    outline: medium;
-    outline-color: antiquewhite;
     opacity: 100%;
     font-size: 6vw !important;
     text-shadow: 2px 2px 4px #000000 !important;
@@ -27,3 +57,139 @@ h2 {
     text-shadow: 2px 2px 4px #000000 !important;
 }
 
+.content-header {
+    background-color: #825062 !important;
+    width: 100%;
+    min-height: 20vw;
+    margin: 20px !important;
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+}
+
+h3 {
+    color: white;
+    font-size: 3vw !important;
+    height: 15vw;
+    text-align: center !important;
+    padding: 2vw !important;
+}
+
+.contact {
+    background-color: #435b7e !important;
+    position: relative;
+    min-height: fit-content;
+    
+}
+
+section {
+    margin-top: unset !important;
+}
+
+.portfolio {
+    background-color: #e9d1c9 !important;
+    color: white !important;
+    margin-top: unset !important;
+    height: max-content !important;
+    
+}
+
+.portfolio-header {
+    background-color: #7e6643 !important;
+    width: 100%;
+    height: auto;
+    margin: 20px !important;
+}
+
+.contact-container {
+    background-color: #e9d1c9;
+    min-height: 40vw !important;
+}
+
+.portfolio-container {
+    background-color: #435b7e;
+    min-height: 40vw !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+ 
+ .card-header-title {
+     font-size: 2vw !important;
+ }
+
+/*add text to portfolio links and have it respond to container size*/
+h4.link-text {    
+    position: relative;  
+    width: auto;  
+    bottom: 5px;    
+    padding: 5px;     
+    text-align: center; 
+    color:black; 
+    background-color: #e9d1c9;
+    bottom: 50px;     
+}
+
+hr {
+    background-color: #7e6643 !important;
+}
+
+/*Portfolio link container*/
+.portfolio-link {
+    width: 100%; 
+    max-width: 500px;
+}
+
+/*image on portfolio link take up full container*/
+.portfolio-img {
+    width:100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border:2px solid #021a40;
+}
+
+/*Create footer*/
+.footer {
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: small;  
+    font-weight: bold;
+    position: static;
+    bottom: 0;
+    width: 100%; 
+    background-color: #adc5eb;
+      
+}
+
+/*Add top border to footer*/
+.footer-border {
+    height: 5px;
+    width: 100% !important;
+}
+
+/*create padding around index page image to space out text*/
+#index-image {
+    margin: 10px;
+}
+
+/*Use margins to create better spacing*/
+.row {
+    margin-top: 30px;
+}
+
+/*Changes to formatting when screen size changes*/
+@media screen and (max-width: 640px) {
+    
+/*unset the "right" setting used for row*/
+nav ul {
+    position: relative;
+    right: unset;
+}
+
+/*Keep navbar links centred when turning to column*/
+.navbar-nav {
+    margin: auto;
+}
+
+}
