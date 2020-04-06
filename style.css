@@ -29,6 +29,7 @@ nav ul {
 
 .jumbotron {
     margin-bottom: unset !important;
+    border-radius: unset !important;
 }
 
 .main {
@@ -117,6 +118,8 @@ section {
      font-size: 2vw !important;
  }
 
+ 
+
 /*add text to portfolio links and have it respond to container size*/
 h4.link-text {    
     position: relative;  
@@ -146,6 +149,10 @@ hr {
     height: 500px;
     object-fit: cover;
     border:2px solid #021a40;
+}
+
+#bio {
+    font-size: large;
 }
 
 /*Create footer*/
@@ -190,6 +197,10 @@ nav ul {
 /*Keep navbar links centred when turning to column*/
 .navbar-nav {
     margin: auto;
+}
+
+#bio {
+    font-size: smaller !important;
 }
 
 }
