@@ -7,7 +7,7 @@ This was my chance to style something for myself so I aimed to create a clean si
 
 ## Usage
 
-Deployed app: <https://rehamilton.github.io/Updated_Portfolio/>/
+Deployed app: <https://rehamilton.github.io/Updated_Portfolio/>\
 Repo link: <https://github.com/rehamilton/Updated_Portfolio>
 
 ![screenshot](https://github.com/rehamilton/Updated_Portfolio/blob/master/readme_assets/site.PNG)
